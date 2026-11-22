@@ -21,7 +21,17 @@ What it does: X25519 and ML-KEM-768 handshake, HKDF-SHA-256, AES-256-GCM, a Doub
 
 ## Who uses it
 
-Swell Messenger 1.3.0 uses this library on both platforms. It is on the Apple App Store (since 2026-11-20) and on Google Play. Website: https://getswell.org . Paper: https://getswell.org/paper .
+Swell Messenger 1.3.0 uses this library on both platforms. It is on the Apple App Store (since 2026-11-20) and on Google Play. The app's website is [getswell.org](https://getswell.org).
+
+## Paper and citation
+
+Ilyas Akbar Almadani. *The Swell Protocol: Invite-Bound Hybrid Key Agreement, a Double Ratchet with an ML-KEM Epoch Ratchet, and a Signed Server Statement*. Cryptology ePrint Archive, Paper 2026/2924, 2026. [IACR ePrint entry and BibTeX](https://eprint.iacr.org/2026/2924) · [Swell-hosted PDF](https://getswell.org/paper)
+
+The preprint describes specification draft 3. Use the [v0.3.0 release](https://github.com/swellchat/swell-protocol/releases/tag/v0.3.0) for the matching draft 3 artifacts.
+
+- [Specification](https://github.com/swellchat/swell-protocol/blob/v0.3.0/docs/SWELL-PROTOCOL-SPEC.md)
+- [Shared test vectors](https://github.com/swellchat/swell-protocol/tree/v0.3.0/docs/protocol-vectors)
+- [Formal models](https://github.com/swellchat/swell-protocol/tree/v0.3.0/docs/formal) and [results](https://github.com/swellchat/swell-protocol/blob/v0.3.0/docs/FORMAL-RESULTS.md)
 
 ## Project status
 
